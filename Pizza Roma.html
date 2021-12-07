@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Roma</title>
+    <script src="js/PizzaRoma.js"></script>
+</head>
+
+<body>
+    <h1>Roma</h1>
+    <button onclick="ajouterPrixPizza(margherita,'Margherita')">1) Margherita : 8,5 €</button> <br><br>
+    <button onclick="ajouterPrixPizza(bolognaise,'Bolognaise')">2) Bolognaise : 9.5 €</button><br><br>
+    <button onclick="ajouterPrixPizza(napoli,'Napoli')">3) Napoli : 9.5 €</button><br><br>
+    <button onclick="ajouterPrixPizza(proscutto,'Napoli')">4) Proscutto : 9.5 €</button><br><br>
+    <button onclick="ajouterPrixPizza(solemio,'Solemio')">5) Solemio : 10 €</button><br><br>
+    <button onclick="ajouterPrixPizza(ortolona,'Ortolona')">6) Ortolona : 11.5 €</button><br><br>
+    <button onclick="ajouterPrixPizza(alsalmone,'Alsalmone')">7) Alsalmone : 12.5 €</button><br><br>
+    <button onclick="ajouterPrixPizza(alPistacchio,'AlPistacchio')">8) AlPistacchio  :14.5 €</button><br><br>
+    <button onclick="voirTotal()">Voir le total € </button><br><br>
+    <button onclick="reset()">Reset </button><br><br>
+
+
+    <p id="total">Le total de votre commande est de 0 €</p>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Pizzas</th>
+                <th>Prix</th>
+            </tr>
+        </thead>
+        <tbody id="loicLeBg">
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Prix total</td>
+                <td id="totale"></td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+
+
+
+
+    <!---- <table border="1" id="tableau">
+        <th>Pizza</th>
+        <th>Prix </th>
+        </tr>
+        <tr>
+            <td><button onclick="ajouterPrixPizza(margherita,'Margherita')">1) Margherita :</button> <br><br></td>
+            <td>8.5</td>
+        </tr>
+        <tr>
+            <td>Proscutto</td>
+            <td>9.5</td>
+
+        </tr>
+        <tr>
+            <td>Ortolona</td>
+            <td>11,5</td>
+
+            <tr>
+                <td>Total</td>
+                <td>X€</td>
+            </tr> <tr>
+            <th>Pizza</th>
+            <th>Prix </th>
+            </tr>
+            <tr>
+                <td>margherita</td>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <td>Proscutto</td>
+                <td>9.5</td>
+                <td>Total</td>
+            </tr>
+            <tr>
+                <td>margherita</td>
+                <td>8.5</td>
+                <td>voirTotal()</td>
+
+            </tr> --->
+
+
+
+
+    </table>
+
+
+</body>
+
+</html>
